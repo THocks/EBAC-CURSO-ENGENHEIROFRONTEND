@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CalcularMediaAlunos</title>
+    <h1>Calcular Media dos alunos</h1>
+</head>
+<body>
+    <div class="container">
+    <input type="text" id="Aluno1" placeholder="Digite um número">
+    <input type="text" id="Aluno2" placeholder="Digite um número">
+    <input type="text" id="Aluno3" placeholder="Digite um número">
+    
+    <div id="res"></div>
+    <button id="calcular" onclick="calcular()">Calcular</button>
+    </div>
+   
+
+
+    <script>
+
+        
+         function calcular(){
+
+        var Aluno1 = parseInt(document.getElementById("Aluno1").value)
+        var Aluno2 = parseInt(document.getElementById("Aluno2").value)
+        var Aluno3 = parseInt(document.getElementById("Aluno3").value)
+        
+        
+        var media = (Aluno1 + Aluno2 + Aluno3) / 3
+
+        if ( media > 0){
+
+           document.getElementById("res").innerHTML =  "Resultado da médias calculados:     "  +   media 
+            
+        } 
+
+     
+
+         }
+    
+    </script>
+    
+</body>
+</html>
