@@ -1,0 +1,23 @@
+informações:
+         um barco
+         um homem
+         um lobo
+         um bode
+         um maço de alfafa
+
+ação:
+         atravessar o rio sem perder as cargas
+
+resultado:
+         todas as as cargas na outra margem do rio.
+
+Algoritmo:
+          início
+                 atravessar homem e bode
+                 voltar homem
+                 atravessar homem e lobo
+                 voltar homem e bode
+                 atravessar homem e alfafa
+                 voltar homem
+                 atravessar homem e bode
+          fim
