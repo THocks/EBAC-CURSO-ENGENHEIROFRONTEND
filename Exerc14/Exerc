@@ -1,0 +1,79 @@
+Exercícios:
+Preencha os resultados das operações e o tipo de dado
+
+Exemplos
+8 + 6 = 14 (number)
+“8” + “6” = “86” (string)
+“8.6” + 4 = “8.64” (string)
+“8” * 4 = 32 (number)
+“8” - 4 = 4 (number)
+“8” / 3 = 2.6666666666666665 (float)
+5 + true = 6 (number)
+“teste” + true = “testetrue” (string) “8” == 8 = true (boolean)
+“8” == 4 = false (boolean)
+8 === “8” = false (boolean)
+8 !== “8” = true (boolean)
+8 < 4 = false (boolean)
+8 > 4 = true (boolean)
+ 
+
+
+
+
+
+Exercícios:
+
+1.	Resolva as operações:
+●	10 + 15 = 25 (number)
+●	“10” + 2 = 1010 ( string)
+●	“10” * 2 = 20 (number)
+●	“10” / 3 = 3.3 ( float)
+●	“10” % 3 = 1 ( number) 
+●	10 + true = 11(number)
+●	10 == ”10” = true ( boolean)
+●	10 === “10” = false (boolean)
+●	10 < 11 = false (boolean)
+●	10 > 12 = false (boolean)
+●	10 <= 10.1 = true(boolean)
+●	10 > 9.99 = true(boolean)
+●	10 != “dez” = 10!dez(string)
+●	10 + true = 11(number)
+●	“dez” + true = deztrue (string)
+●	10 + false = 9 (number)
+●	10 * false = -10 (number)
+●	true + true = 2 (number)
+●	10++ = 12(number)
+●	10-- = 8 (number)
+●	1 & 1 = 1 (number)
+●	1 & 0 = 1 (number)
+●	0 & 0 = 0 (number)
+●	1 & 0 = 0 (number)
+●	0 / 1 = 0 (number)
+●	5 + 5 == 10 = sim (number)
+●	“5” + ”5” == 10 = não (string)
+●	“5” * 2 > 9 = 55 ( string)
+●	(10 + 10) * 2 = 40 ( number)
+●	10 + 10 * 2 = 30 (number)
+
+
+2.	Responda as perguntas de acordo com as variáveis. var branco = “preto”;
+var preto = “cinza”; var cinza = “branco”; var carro = “preto”; var valor = 30000; var prestacao = 750;
+
+
+a)	branco == “branco” /( Não ) branco =preto
+b)	branco == cinza  / ( não ) branco = preto
+c)	carro === branco / (não ) Carro = preto 
+d)	var cavalo = carro == “preto” ? “cinza” : “marron” / (sim) carro = preto
+e)	Quantas prestações são necessárias para pagar o valor do carro com uma entrada de 3.000? Demonstre a operação.
+
+30.000 – 3000 = 27,000
+27,000 / 750 = 36
+
+
+36 Prestações
+ 
+
+
+f)	Somando as variáveis de cores é formada uma string de quantos caracteres?
+R: 4
+
